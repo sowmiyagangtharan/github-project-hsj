@@ -1,0 +1,154 @@
+.main {
+    display: block;
+    height: 130vh;
+    background-image:linear-gradient(#0A2647,#205295);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    overflow: hidden;
+  }
+
+  .logo{
+    display: flex;
+    justify-content: center;
+    }
+
+   .row{
+    display: flex;
+   }
+
+   .logo img{
+    width: 20vh;
+    height: 20vh;
+    border-radius: 50%;
+   }
+
+   .submain {
+    display: block;
+    height: 100vh;
+    background-image:linear-gradient(#205295,#0A2647);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+
+  }
+
+  .submain img{
+    width: 36vh;
+    height: 24vh;
+    position: relative;
+
+  }
+
+
+  .submain p{
+    font-size: 14vh;
+    font-weight: bold;
+    opacity: 0.1;
+    position: absolute;
+
+  }
+
+
+  .submain1{
+    display: block;
+    height: 150vh;
+    background-image:linear-gradient(#0A2647,#b2b5b9);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+
+  }
+
+  .submain1 img{
+    width: 63vh;
+    height: 90vh;
+    position: absolute;
+    cursor: pointer;
+    }
+
+    .submain1 .row{
+      --bs-gutter-x: -5.5rem;
+
+    }
+
+    
+
+    .submain1 h4{
+    position: relative;
+    cursor: pointer;
+
+    }
+
+    .submain2{
+      display: block;
+      height: 130vh;
+      /* background-image: url(../../../assets/img_sustainability.png); */
+      background-image:linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.3)), url('../../assets/img_sustainability.png');
+      opacity: 0.95;
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:center;
+      background-attachment: fixed;
+  
+    }
+    
+
+    .submain2 h1{
+      color: white;
+      padding: 61px 0px 0px 66px;
+      font-size: 20vh;
+      opacity: 0.3;
+      font-weight: bold;
+    }
+
+
+    .submain3{
+      display: block;
+       height: 100vh;
+      background-image:linear-gradient(#b2b5b9,#0A2647);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position:center;
+      background-attachment: fixed;
+  
+    }
+
+    .submain3 h1{
+       font-size: 10vh;
+       padding: 8px 0px 0px 26px;
+    }
+
+   .submain4{
+    display: block;
+    height: 100vh;
+   background-image:linear-gradient(#0A2647,#205295);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position:center;
+   background-attachment: fixed;
+   }
+
+   .submain4 img{
+       width: 50vh;
+       height: 50vh;
+   }
+
+   .submain5{
+    display: block;
+    height: 130vh;
+   background-image:linear-gradient(#205295,#0A2647);
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position:center;
+   background-attachment: fixed;
+   }
+
+
+   .submain5 img{
+    width: 100px;
+    height: 100px;
+    }
